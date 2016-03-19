@@ -1,6 +1,6 @@
 ### Introduction  
 This is where I maintain working examples of R and Python w/ brief descriptions.  
-Current Examples:
+Current Examples:  
 1. Map exploration using GADM on R    
 2. Article parsing and processing on Python  
 
