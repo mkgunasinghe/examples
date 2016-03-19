@@ -1,8 +1,8 @@
 ### Introduction  
 This is where I maintain working examples of R and Python w/ brief descriptions.  
 Current Examples:
-1. Map exploration using GADM on R  
-2. Article parsing and processing on Python
+1. Map exploration using GADM on R    
+2. Article parsing and processing on Python  
 
   *Map exploration using GADM on R:  
 >Extract country and province level spatial data on R with the example of Ecuador.   
