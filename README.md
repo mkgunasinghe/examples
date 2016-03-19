@@ -5,7 +5,7 @@ This is where I maintain working examples of R and Python codes w/ brief descrip
 1. Map exploration using GADM on R    
 2. Article parsing and processing on Python  
 
-[Map exploration using GADM on R:]     
+Map exploration using GADM on R:       
 >i. Extract country and province level spatial data on R with the example of Ecuador.   
 ii. Function to reduce the virtual memory associated with polygons by GADM is employed.  
 iii. Color specific regions/cities and stack variable names on map.  
