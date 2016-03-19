@@ -1,5 +1,5 @@
 ### Introduction  
-This is where I maintain working examples of R and Python w/ brief descriptions.
+This is where I maintain working examples of R and Python codes w/ brief descriptions.
 
 **Current Examples:**  
 1. Map exploration using GADM on R    
