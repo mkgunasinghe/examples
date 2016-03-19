@@ -5,10 +5,10 @@ Current Examples:
 1. Map exploration using GADM on R    
 2. Article parsing and processing on Python  
 
-  *Map exploration using GADM on R:  
->Extract country and province level spatial data on R with the example of Ecuador.   
-A function to reduce the virtual memory associated with polygons by GADM is employed.  
-Color specific regions/cities and stack variable names on map.  
+Map exploration using GADM on R:  
+>i. Extract country and province level spatial data on R with the example of Ecuador.   
+ii. function to reduce the virtual memory associated with polygons by GADM is employed.  
+iii. Color specific regions/cities and stack variable names on map.  
   
   *Article parsing and processing on Python:    
 >Use newspaper, nltk, xlwt packages to;    
