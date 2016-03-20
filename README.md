@@ -23,4 +23,6 @@ Access and visualise Phoenix data on R:
     ~ 3,000 events per day.  
 ii. Able to fetch yesterday's data or construct a range and then view it on an  
 	interactive map depending on specifications such as: country/ies, event type, etc.  
+    
+![PhoenixExample.jpeg]({{site.baseurl}}/PhoenixExample.jpeg)
 
