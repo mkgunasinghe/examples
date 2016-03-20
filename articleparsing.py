@@ -1,4 +1,11 @@
-# Load packages
+#### START ###
+
+# Code to parse newspapers using the newspaper package (http://newspaper.readthedocs.org/en/latest/). 
+# Acquire 'title', 'link', and 'keywords' from 'Bloomberg', 'CNN', and 'The Economist'.
+# Write them in a seperate Excel workbook (with sheets for each newspaper source).
+
+#Load packages
+
 import newspaper
 from newspaper import Article, ArticleException, news_pool
 import tldextract
@@ -55,22 +62,22 @@ tend = datetime.now()
 print "Time taken to Multi-thread:" ,tend - tstart
 
 # Create Loop for each news source to acquire title, url, keywords within a range
-# and then save the output to a excel sheet
+# and then save the output to an Excel sheet
 
 tstart = datetime.now()
 # BLOOMBERG
-for x in range(1, 50): 				      # current range = 50
+for x in range(1, 50): 				      	  # current range = 50
 	article = bloomberg_paper.articles[x] 
-	article.download() 					  # downloading article
-	article.parse()						  # parsing article ~ must download first
-	article.nlp() 						  # accessing natural language properties ~ must download & parse first
+	article.download() 			       	  # downloading article
+	article.parse()					  # parsing article ~ must download first
+	article.nlp() 					  # accessing natural language properties ~ must download & parse first
 	t1 = (article.title) 				  # title
-	l1 = (article.url) 					  # url
+	l1 = (article.url) 				  # url
 	k1 = str(article.keywords) 			  # keywords
-	for k, v in replacements.iteritems(): # replacing "[, ], u'" characters
+	for k, v in replacements.iteritems()	 	  # replacing "[, ], u'" characters
 		k1 = k1.replace(k,v) 			  # with whitespace
 	bloomberg = [t1, l1, k1] 			  # creating dict with title, url, keywords
-	for idx, s in enumerate(bloomberg):   # input data into excel sheet
+	for idx, s in enumerate(bloomberg):    		  # input data into excel sheet
 		sheet1.write(x, idx, s)			  # x=row (got from range), idx=t1,l1,k1, s=string
 
 # CNN
@@ -105,4 +112,13 @@ for x in range(1, 50):
 
 tend = datetime.now()
 print "Time taken to parse articles:" ,tend - tstart
-wb.save('news.xls') # save XLS file on directory 
+wb.save('news.xls') 					  # save XLS file on directory 
+
+# Additionally, if you want to print/save only articles with keyword 'risk'
+# insert following code in the loop of the article:
+	#if any("risk" in s for s in k):
+		# print "The title of the article is:" ,m
+		# print "The link for it is:" ,u
+		# print "The keywords are:" ,n
+		
+### END ###
