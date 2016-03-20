@@ -22,10 +22,10 @@ Access and visualise Phoenix data on R:
 	contains near real-time event dataset from scraping over 400 news source and producing  
     ~ 3,000 events per day.  
 ii. Able to fetch yesterday's data or construct a range and then view it on an  
-	interactive map depending on specifications such as: country/ies, event type, etc.    
-      
-![]({{site.baseurl}}/https://cloud.githubusercontent.com/assets/17466433/13907496/53f545fe-eee7-11e5-9057-be77197f04a1.jpeg)  
-
+	interactive map depending on specifications such as: country/ies, event type, etc.     
+  
+![alt tag](https://cloud.githubusercontent.com/assets/17466433/13907496/53f545fe-eee7-11e5-9057-be77197f04a1.jpeg)  
+  
 Recorded observations (clustered) for Turkey in the 2 day range 10/03/16 - 11/03/16.
 
 
