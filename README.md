@@ -18,7 +18,7 @@ iii. Extract 'title', 'link', and 'keywords' associated with articles.
 iv. Write data on an Excel workbook.
 
 Access and visualise Phoenix data on R:  
->i. Code to access Phoenix data (http://phoenixdata.org/description):
+>i. Code to access Phoenix data (http://phoenixdata.org/description):  
 	contains near real-time event dataset from scraping over 400 news source and producing
     ~ 3,000 events per day.  
 ii. Able to fetch yesterday's data or construct a range and then view it on an
