@@ -1,6 +1,9 @@
-## Using GADM to explore district level Ecuador map ##
+### START ###
 
-# Load packages
+# Using GADM to explore district level Ecuador map ##
+
+# Load libraries
+
 library(rgdal)
 library(raster)
 library(sp)
@@ -33,6 +36,8 @@ getSmallPolys <- function(poly, minarea=0.01) {
 }
 # End of Function
 
+# EXAMPLES
+
 # Get polygon data for district level Ecuador
 ecuador <- getData('GADM', country="ECU", level=1)
 
@@ -56,7 +61,7 @@ plot(ecuador, col = colors, border = 'black', main = "Example of Ecuador Map")
 # Set font of district names on map **(not able if space reducing function is applied)**
 invisible(text(getSpPPolygonsLabptSlots(ecuador), labels=as.character(ecuador$NAME_1), cex=0.4))
 
-#####
+# City level
 
 # Focusing on a individual district in Ecuador (instead of whole country) ##
 ecuador2 <- getData('GADM', country="ECU", level=2)
@@ -75,7 +80,7 @@ bolivar = (ecuador2[ecuador2$NAME_1=="Bolivar",])
 bolivar@data
 
 # Apply function to reduce virtual space
-bolivar <- gSimplify(liaoning, tol=0.01, topologyPreserve=TRUE)
+bolivar <- gSimplify(bolivar, tol=0.01, topologyPreserve=TRUE)
 
 # Provide a background color for cities in region
 colors2 <- rep("grey", 7)
@@ -91,7 +96,7 @@ plot(bolivar, col = colors2, border = 'black', main = "Example of Bolivar Provin
 # Set font of city names on map **(not able if space reducing function is applied)**
 invisible(text(getSpPPolygonsLabptSlots(bolivar), labels=as.character(bolivar$NAME_2), cex=0.4))
 
-# End of example
+### END ###
 
 # Clear environment
 rm(list=ls())
