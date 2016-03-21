@@ -24,8 +24,6 @@ Access and visualise Phoenix data on R:
 ii. Fetch yesterday's data or construct a range to view on a custamizable    
 	interactive map with specifications such as: country/ies, event type, etc.  
 	
-EXAMPLE:  
-
 ![alt tag](https://cloud.githubusercontent.com/assets/17466433/13907496/53f545fe-eee7-11e5-9057-be77197f04a1.jpeg)    
   
 Phoenix recorded observations (clustered) for Turkey in the 2 day range 10/03/16 - 11/03/16.  
