@@ -18,12 +18,12 @@ iii. Extract 'title', 'link', and 'keywords' associated with articles.
 iv. Write data on an Excel workbook.
 
 Access and visualise Phoenix data on R:  
->i. Code to access Phoenix data (http://phoenixdata.org/description):  
-	contains near real-time event dataset from scraping over 400 news source and producing  
+>i. Code to access Phoenix dataset (http://phoenixdata.org/description):  
+	contains near real-time event dataset, scraping over 400 news source and coding  
     ~ 3,000 events per day.  
-ii. Able to fetch yesterday's data or construct a range and then view it on an  
-	interactive map depending on specifications such as: country/ies, event type, etc.     
-	 
+ii. Fetch yesterday's data or construct a range to view on a custamizable    
+	interactive map with specifications such as: country/ies, event type, etc.      
+EXAMPLE:  
 ![alt tag](https://cloud.githubusercontent.com/assets/17466433/13907496/53f545fe-eee7-11e5-9057-be77197f04a1.jpeg)    
   
 Phoenix recorded observations (clustered) for Turkey in the 2 day range 10/03/16 - 11/03/16.  
