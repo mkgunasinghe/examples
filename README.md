@@ -2,12 +2,12 @@
 This is where I maintain working examples of R and Python codes w/ brief descriptions.
 
 **Current Examples:**  
-1. LDA  
+1. LDA  (Latent Dirichlet Allocation)  
 2. Phoenix  
 3. Article parsing and processing on Python  
 4. Map exploration using GADM on R  
 
-LDA:
+LDA: (Latent Dirichlet Allocation)  
 >i. Parse newspapers using the newspaper package (http://newspaper.readthedocs.org/en/latest/).   
 ii. Save articles in .txt files, apply preprocessing (tokenizing, remove stop words, etc.) and get topic keywords.  
 iii. Create document term matrix for text articles and compare through cosine distance.  
