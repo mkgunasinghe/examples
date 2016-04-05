@@ -14,10 +14,9 @@ iii. Create document term matrix for text articles and compare through cosine di
 iv. Visualize distance (click on points to see what article it refers to).  
 
 Access and visualise Phoenix data on R:  
->i. Code to access Phoenix dataset (http://phoenixdata.org/description):  
-	contains near real-time event dataset, scraping over 400 news source and coding  
-    ~ 3,000 events per day.  
-ii. Fetch yesterday's data or construct a range to view on a custamizable    
+>i. Access Phoenix dataset (http://phoenixdata.org/description): near real-time  
+	risk-event data, scraping +400 news source and coding ~3,000 events per day.  
+ii. Fetch yesterday's data or construct a range to view on a customizable    
 	interactive map with specifications such as: country/ies, event type, etc.  
 	
 ![alt tag](https://cloud.githubusercontent.com/assets/17466433/13907496/53f545fe-eee7-11e5-9057-be77197f04a1.jpeg)    
