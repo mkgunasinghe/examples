@@ -2,12 +2,19 @@
 This is where I maintain working examples of R and Python codes w/ brief descriptions.
 
 **Current Examples:**  
-1. LDA  (Latent Dirichlet Allocation)  
-2. Phoenix  
-3. Article parsing and processing on Python  
-4. Map exploration using GADM on R  
+1. Automated Time-series Analysis     
+2. LDA  (Latent Dirichlet Allocation)  
+3. Phoenix  
+4. Article parsing and processing on Python  
+5. Map exploration using GADM on R  
 
-LDA: (Latent Dirichlet Allocation)  
+Time-series Analysis:
+>i. Apply an ARIMA model on a CSV timeseries file.  
+ii. Fit a linear model and provide descriptive statistics.  
+iii. Preliminary functions to detrend, transform, and fit lags (ACF/PACF).  
+iv. Visualize a fitted ARIMA plot with out-of-sample predictions on timeseries.   
+
+LDA (Latent Dirichlet Allocation):  
 >i. Parse newspapers using the newspaper package (http://newspaper.readthedocs.org/en/latest/).   
 ii. Save articles in .txt files, apply preprocessing (tokenizing, remove stop words, etc.) and get topic keywords.  
 iii. Create document term matrix for text articles and compare through cosine distance.  
@@ -23,10 +30,9 @@ ii. Fetch yesterday's data or construct a range to view on a customizable
 Phoenix recorded observations (clustered) for Turkey in the 2 day range 10/03/16 - 11/03/16.  
 
 Article parsing and processing on Python:       
->i. Use newspaper, nltk, xlwt packages to;    
-ii. Download and parse articles from Bloomberg, CNN, and the Economist.    
-iii. Extract 'title', 'link', and 'keywords' associated with articles.  
-iv. Write data on an Excel workbook.  
+>i. Download and parse articles from Bloomberg, CNN, and the Economist.    
+ii. Extract 'title', 'link', and 'keywords' associated with articles.  
+iii. Write data on an Excel workbook.  
 
 Map exploration using GADM on R:       
 >i. Extract country and province level spatial data on R with the example of Ecuador.   
