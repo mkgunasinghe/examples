@@ -1,8 +1,10 @@
-#### START ###
+### START ###
 
-# Code to parse newspapers using the newspaper package (http://newspaper.readthedocs.org/en/latest/). 
-# Acquire 'title', 'link', and 'keywords' from 'Bloomberg', 'CNN', and 'The Economist'.
-# Write them in a seperate Excel workbook (with sheets for each newspaper source).
+"""
+Code to parse newspapers using the newspaper package (http://newspaper.readthedocs.org/en/latest/). 
+Acquire 'title', 'link', and 'keywords' from 'Bloomberg', 'CNN', and 'The Economist'.
+Write them in a seperate Excel workbook (with sheets for each newspaper source).
+"""
 
 #Load packages
 
