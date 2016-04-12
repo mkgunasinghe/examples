@@ -1,9 +1,11 @@
 ### START ###
 
-# Parse newspapers using the newspaper package (http://newspaper.readthedocs.org/en/latest/). 
-# Save articles in .txt files, apply preprocessing (tokenizing, remove stop words, etc.) and get topic keywords.
-# Create document term matrix for text articles and compare through cosine distance.
-# Visualize distance (click on points to see what article it refers to).
+"""
+Parse newspapers using the newspaper package (http://newspaper.readthedocs.org/en/latest/). 
+Save articles in .txt files, apply preprocessing (tokenizing, remove stop words, etc.) and get topic keywords.
+Create document term matrix for text articles and compare through cosine distance.
+Visualize distance (click on points to see what article it refers to).
+"""
 
 # Load packages
 from nltk.tokenize import RegexpTokenizer
